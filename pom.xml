@@ -6,7 +6,13 @@
 
     <groupId>cn.itcast.demo</groupId>
     <artifactId>springcloud-ly-again</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
+    <modules>
+        <module>user-service</module>
+        <module>consumer-demo</module>
+        <module>eureka-server</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
